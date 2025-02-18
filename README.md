@@ -36,7 +36,7 @@ so that, if someone wants to use your project as a library, they can import it a
 import "github.com/your-username/my_og_project"
 ```
 
-[## Hello World](./hello_world.go)
+## [Hello World](./hello_world.go)
 
 Now that a go.mod file has been initialized and the project has been set up successfully, it's time to write your first program
 
@@ -76,3 +76,13 @@ To prevent this, use `Blank import _`
 ```go
 import _ "database/sql"
 ```
+- External packages can be installed using `go get`
+- The `fmt` package is an inbuilt package in Go's standard library. It helps in:
+    - Printing to the cosole
+    - Formatting strings
+    - Scanning user input
+- The `main` function is the entry point of every executable program in Go
+    - `func main()` is where executon begins
+    - Go will throw an error if the `func main()` is not found
+    - Global variables, constants, and types can be declared outside functions
+    - `init()` can be used for setup before `main()`
