@@ -110,3 +110,16 @@ Stores decimal numbers
 ### Boolean
 Represents `true` or `false`
 - `bool`
+
+
+## Declaration of varibles
+
+### **Key Differences**
+| Feature          | `var` Syntax        | `:=` Syntax |
+|-----------------|--------------------|-------------|
+| **Type required?** | Optional (can be specified) | No (inferred automatically) |
+| **Inside functions?** | ✅ Yes | ✅ Yes |
+| **Outside functions?** | ✅ Yes | ❌ No (only `var` works globally) |
+| **Allows multiple declarations?** | ✅ Yes | ❌ No |
+
+---
