@@ -124,5 +124,6 @@ Represents `true` or `false`
 
 ---
 
-<span style="color: red;">Go does not allow variable redecclaration in the same scope</span>
-<span style="color:red">Go is strict about not using any declared variable. It throws an error</span>.
+🔴<span style="color: red;">Go does not allow variable redecclaration in the same scope</span>
+<br/>
+🔴<span style="color:red">Go is strict about not using any declared variable. It throws an error</span>.
