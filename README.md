@@ -123,11 +123,6 @@ Represents `true` or `false`
 | **Allows multiple declarations?** | ✅ Yes | ❌ No |
 
 ---
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
 
-<r><span style="color:red">Go does not allow variable redecclaration in the same scope</span></r>
+<r><span style="color: red;">Go does not allow variable redecclaration in the same scope</span></r>
 <span style="color:red">Go is strict about not using any declared variable. It throws an error</span>.
