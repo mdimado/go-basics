@@ -51,7 +51,7 @@ func main() {
 
 ```
 
-a few important points:
+### A few important points:
 - every go program starts with a package
     **why ?**
     - Go is designed around packages for modularity
@@ -86,3 +86,27 @@ import _ "database/sql"
     - Go will throw an error if the `func main()` is not found
     - Global variables, constants, and types can be declared outside functions
     - `init()` can be used for setup before `main()`
+
+
+## Data Types in Go
+
+### Integer Types:
+These store whole numbers
+- `int` platform-dependent
+    - stores 32 bit signed integers on a 32-bit system
+    - stores 64 bit signed integers on a 64-bit system
+- `intN`
+    - stores N bit signed integers
+    - example, `int8` stores 8 bit signed integers and `int32` stores 32 bit signed integers
+
+### Unsigned integers
+Stores only positive whole numbers
+- `uint, uint8, uint16, uint32, uint64`
+
+### Floating point types
+Stores decimal numbers
+- `float32, float64`
+
+### Boolean
+Represents `true` or `false`
+- `bool`
