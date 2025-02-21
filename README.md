@@ -111,6 +111,18 @@ Stores decimal numbers
 Represents `true` or `false`
 - `bool`
 
+### strings
+Stores a sequence of characters
+- `string`
+    - immutable
+    - supports unicode
+
+### array
+Fixed size colection of variables of same type
+- `[N]Type`
+    - N is the length of the array
+    - Type is the type of the variables 
+
 
 ## Declaration of varibles
 
@@ -124,6 +136,6 @@ Represents `true` or `false`
 
 ---
 
-🔴<span style="color: red;">Go does not allow variable redecclaration in the same scope</span>
+🔴<span style="color: red;">Go does not allow variable redeclaration in the same scope</span>
 <br/>
 🔴<span style="color:red">Go is strict about not using any declared variable. It throws an error</span>.
